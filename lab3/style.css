@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color:white;
+}
+
+.section-title {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  max-width: 57em;
+  margin-left: 10px;
+  margin-right: auto;
+  padding-bottom: 0.4em;
+  font-size: 2.4em;
+  color: black;
+}
+
+.section-title-maroon {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  max-width: 57em;
+  margin-left: 10px;
+  margin-right: auto;
+  padding-bottom: 0.4em;
+  font-size: 1.9em;
+  color: maroon;
+}
+
+
+.section-title-two {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  max-width: 40em;
+  margin-left: 10px;
+  padding-bottom: 0.4em;
+  font-size: 2.0em;
+  color: black;
+}
+
+.section-title-req {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  max-width: 30em;
+  margin-left: 10px;
+  padding-bottom: 0.4em;
+  font-size: 2.0em;
+  color: black;
+}
+
+.section-title-contact {
+  max-width: 57em;
+  margin-left: 10px;
+  margin-right: auto;
+  padding-bottom: 0.4em;
+  font-size: 2.4em;
+  color: black;
+}
+.block1 {
+    height: 60px;
+    width:100%;
+    background-color: #363436;
+}
+
+.block2 {
+    margin-left: 0;
+    max-height: 600px;
+    max-width: 80%;
+}
+
+.rensselaerLogo {
+    position: relative;
+    background-color: #363436;
+    padding: 0;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.main {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin-bottom: auto;
+    margin: 50px auto;
+}
+
+.top {
+    font-size: 1.3em;
+    position: fixed;    
+    width: 220px;
+    height: 410px;
+    background-color: rgba(25, 5, 22, .5);
+}
+
+.top ul {
+    position: relative;
+    top: 25px;
+    left: 0;
+    width: 220px;
+    height: 360px;
+}
+
+.top ul li {
+    list-style: none;
+    padding-left: 35px;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.pstyle {
+    color: black;
+    font-size: 20px;
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+.current {
+    background-color: rgba(235, 223, 233, 0.5);
+    color: #333;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    left: 250px;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(71, 17, 17, 0.1);
+    transform-style: preserve-3d;
+}
+
+.con_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 410px;
+}
+
+.item {
+    display: none;
+    width: 100%;
+}
+
+.photoview {
+    width: 100%;
+    height: 270px;
+	position: relative;
+	margin: 5px 0px 0px 0px;
+    padding:10px 10px 0px 10px;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+/*    backface-visibility: hidden;*/
+}
+
+/*
+.box {
+    position: relative; 
+    margin: 5px;
+    width: 905px;
+    height: 270px;
+    background-color: #f2eada;
+    padding: 10px 10px 20px 10px;
+    box-shadow: .2em .2em .8em #130c0e;
+}
+*/
+ 
+.photoview:hover{
+    transform: rotateY(180deg);
+}
+
+.face {
+    padding:0;
+    float: left;
+    position: absolute; 
+    width: 99%;
+    height: 270px;
+    background-color: #f2eada;
+    padding: 10px 10px 20px 10px;
+    box-shadow: .2em .2em .8em #130c0e;
+    backface-visibility: hidden;
+}
+
+.hip {
+    float: left;
+    position: relative; 
+    width: 99%;
+    height: 270px;
+    background-color: #f2eada;
+    padding: 10px 10px 20px 10px;
+    box-shadow: .2em .2em .8em #130c0e;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.hip .name{
+    font-size: 2.1em;
+    color: rgb(51, 204, 204);
+}
+
+.hip .info {
+    color: black;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.profinfo {
+    float: right;
+    width: 65%;
+    height: 350px;
+}
+
+.profinfo .name {
+    font-size: 2.1em;
+    color: rgb(51, 204, 204);
+}
+
+.profinfo .title {
+    margin-left: 5px;
+    margin-top: 6px;
+    font-size: 1.2em;
+    color: black;
+}
+
+.profinfo .info {
+    color: black;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.nav a {
+    list-style: none;
+    font-size: 20px;
+    margin-left: 0px;
+    display: block;
+    padding-left: 10px;
+    line-height: 46px;
+    max-height: 100px;
+    transition: all .3s;
+}
+
+.nav a span {
+    margin-left: 10px;
+}
+
+.nav-item {
+    position: relative;
+    color: rgb(51, 204, 204);
+    list-style: none;
+}
+
+.nav-item.nav-show {
+    border-bottom: none;
+}
+
+.nav-item ul {
+    display: none;
+    background: rgba(0, 0, 0, .1);
+}
+
+.nav-item li{
+    color: black;
+    list-style: none;
+}
+.nav-item.nav-show ul {
+    display: block;
+}
+
+
+.nav-show,
+.nav-item>a:hover {
+  color: #FFF;
+  background: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+
+.nav-item li:hover a {
+  color: #FFF;
+  background: #605b5b;
+  cursor: pointer;
+}
+
+.photoview2 {
+    background-color: rgb(255, 255, 153, 0.1);
+    box-shadow: .2em .2em .8em #130c0e;
+    width: 100%;
+    height: 175x;
+	position: relative;
+	margin: 5px 0px 0px 0px;
+/*    backface-visibility: hidden;*/
+}
+
+.photoview2 .title {
+    float: right;
+    width: 73%;
+    margin-right: 50px;
+    margin-top: 6px;
+    font-size: 2.1em;
+    color: black;
+}
+
+.photoview3 {
+    background-color: white;
+    width: 100%;
+    height: 175x;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+}
